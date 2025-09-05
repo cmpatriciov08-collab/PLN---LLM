@@ -9,9 +9,8 @@ Este repositorio contiene el material completo del curso "Laboratorio de Introdu
 Tambien de proyectos finalizados y/o en proceso relacionados a la ciencia de datos e inteligencia artificial.
 
 📞 Contacto
+
 Patricio Velasquez, Christian Manuel
 
 📧 Email: cmpatriciov08@gmail.com
-
-🌐 GitHub: github.com/cmpatriciov08
 
