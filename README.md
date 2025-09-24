@@ -45,7 +45,7 @@ Aplicar técnicas fundamentales y herramientas del procesamiento del habla y del
 Si tienes preguntas o sugerencias sobre este proyecto, no dudes en contactarme:
 
 - **📧 Email**: 94721647@ifts24.edu.ar
-- **💼 LinkedIn**: https://www.linkedin.com/in/christian-manuel-patricio-velasquez-64a144164?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B4hXV4Rd5QuqrZgmemwl1RQ%3D%3D
+- **💼 LinkedIn**: linkedin.com/in/christian-manuel-patricio-velasquez-64a144164
 - **🐙 GitHub**: cmpatriciov08
 
 ---
