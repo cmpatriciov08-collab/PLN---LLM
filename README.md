@@ -46,7 +46,7 @@ Si tienes preguntas o sugerencias sobre este proyecto, no dudes en contactarme:
 
 - **📧 Email**: 94721647@ifts24.edu.ar
 - **💼 LinkedIn**: linkedin.com/in/christian-manuel-patricio-velasquez-64a144164
-- **🐙 GitHub**: cmpatriciov08
+- **🐙 GitHub**: @cmpatriciov08
 
 ---
 
