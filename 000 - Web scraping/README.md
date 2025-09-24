@@ -1,57 +1,99 @@
-# Módulo 0: Introducción y Presentación
+# 🌐 Web Scraping: Introducción y Fundamentos
 
-## 🎯 Objetivos del Módulo
+## 📖 ¿Qué es el Web Scraping?
 
-- Comprender los fundamentos del Procesamiento del Lenguaje Natural
-- Configurar el entorno de desarrollo
-- Familiarizarse con herramientas interactivas como Gradio
-- Introducción al web scraping básico
+El **web scraping** es una técnica automatizada para extraer información de sitios web. Consiste en recuperar datos de páginas web de manera programática, transformando contenido no estructurado (HTML) en datos estructurados para su análisis.
 
-## 📚 Contenido
+## 🎯 Objetivos de esta sección
 
-### Presentaciones
-- `000 - Clase 1.pptx`: Introducción al curso y metodología
-- `000 - LAB.pptx`: Configuración del laboratorio
+- Comprender los fundamentos del web scraping
+- Aprender a usar BeautifulSoup para extraer datos
+- Identificar elementos HTML y patrones de contenido
+- Manejar ética y legalmente el scraping de datos
 
-### Notebooks Prácticos (COLABS/)
-- `000 - Gradio.ipynb`: Creación de interfaces interactivas
-- `001_WEB_Scraping_Parte1.ipynb`: Fundamentos de web scraping
-- `002_WebScraping.ipynb`: Técnicas avanzadas de extracción
+## 🛠️ Herramientas principales
 
-## 🚀 Actividades Clave
+### BeautifulSoup
+```python
+from bs4 import BeautifulSoup
+import requests
 
-1. **Diagnóstico de Conocimientos**: Evaluación inicial de Python y programación
-2. **Configuración del Entorno**: Instalación de herramientas necesarias
-3. **Primera Interfaz**: Creación de una aplicación simple con Gradio
-4. **Brainstorming**: ¿Qué proyectos podemos desarrollar en este laboratorio?
+# Ejemplo básico
+response = requests.get('https://ejemplo.com')
+soup = BeautifulSoup(response.content, 'html.parser')
+```
 
-## 💡 Conceptos Importantes
+### Librerías complementarias
+- `requests`: Para hacer peticiones HTTP
+- `pandas`: Para manejo y almacenamiento de datos
+- `re`: Para expresiones regulares
 
-- **NLP vs Deep Learning**: Diferencias y complementariedad
-- **Aplicaciones del NLP**: Casos de uso en la vida cotidiana
-- **Herramientas de Desarrollo**: Google Colab, Jupyter, VS Code
-- **Interfaces de Usuario**: Gradio para prototipado rápido
+## 📋 Contenido del módulo
 
-## 🔧 Herramientas Utilizadas
+### 1. **Conceptos básicos**
+- Anatomía de una página web
+- Estructura HTML/DOM
+- Selectores CSS y XPath
 
-- Python 3.8+
-- Gradio
-- Requests
-- BeautifulSoup
-- Jupyter Notebooks
+### 2. **Técnicas de extracción**
+- Búsqueda por etiquetas
+- Selectores por clase e ID
+- Navegación por el árbol DOM
+- Extracción de atributos y texto
 
-## 📝 Evaluación
+### 3. **Ejemplos prácticos**
+```python
+# Extraer todos los enlaces
+enlaces = soup.find_all('a')
 
-- Participación en brainstorming
-- Configuración exitosa del entorno
-- Creación de primera interfaz con Gradio
+# Extraer texto de elementos específicos
+titulos = soup.find_all('h1', class_='titulo')
 
-## 🎓 Metodología
+# Navegación entre elementos
+contenedor = soup.find('div', id='contenido')
+parrafos = contenedor.find_all('p')
+```
 
-Este módulo utiliza la metodología de **micro-laboratorios**:
-- Sesiones prácticas cortas y enfocadas
-- Aprendizaje colaborativo
-- Brainstorming: "¿Cómo podemos usar el NLP y el DL para resolver problemas sociales?"
+### 4. **Manejo de datos extraídos**
+- Limpieza y transformación
+- Almacenamiento en CSV/JSON
+- Estructuración en DataFrames
 
----
-*Prof. Matias Barreto - Laboratorio de Introducción al NLP y LLMs*
+## ⚠️ Consideraciones importantes
+
+### ✅ Ética y legalidad
+- Respetar `robots.txt`
+- No sobrecargar servidores
+- Usar delays entre peticiones
+- Verificar términos de servicio
+
+### 🔧 Buenas prácticas
+```python
+import time
+from random import uniform
+
+# Delay entre peticiones
+time.sleep(uniform(1, 3))
+
+# Headers apropiados
+headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+}
+```
+
+## 🚀 Proyectos incluidos
+
+1. **Scraping de noticias**: Extraer titulares y fechas
+2. **Datos de productos**: Precios y descripciones de e-commerce
+3. **Contenido académico**: Artículos y publicaciones
+4. **Datos sociales**: Comentarios y reseñas (con limitaciones)
+
+## 📊 Resultados esperados
+
+Al finalizar esta sección podrás:
+- Extraer datos estructurados de cualquier sitio web
+- Manejar paginación y navegación
+- Limpiar y organizar datos extraídos
+- Exportar resultados en formatos útiles para análisis
+
+
