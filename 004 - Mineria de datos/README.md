@@ -26,12 +26,3 @@ Este proyecto es tu **pico y criba** para extraer ese valor. Implementamos técn
 - **🔎 Entity Recognition**: Detección de entidades nombradas (personas, lugares, organizaciones)
 - **📋 Preprocesamiento Avanzado**: Stemming, lematización y manejo de datos textuales
 
-## 🛠️ Instalación
-
-```bash
-# Clonar el repositorio
-git clone https://github.com/tuusuario/text-mining-toolkit.git
-cd text-mining-toolkit
-
-# Instalar dependencias
-pip install -r requirements.txt
