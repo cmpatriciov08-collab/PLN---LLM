@@ -59,4 +59,3 @@ import matplotlib.pyplot as plt
 - Práctica Colaborativa: Trabajo en equipos
 - Aplicación Inmediata: Cada concepto se aplica a problemas reales
 
-*Esta síntesis se mantiene completamente fiel al texto original que me proporcionaste.*
