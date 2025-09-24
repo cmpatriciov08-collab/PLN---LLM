@@ -1,4 +1,4 @@
-# Módulo 3: Text Mining y Vectorización
+# Text Mining y Vectorización
 
 ## 🎯 Objetivos del Módulo
 
@@ -6,19 +6,6 @@
 - Implementar análisis de text mining en corpus reales
 - Comprender n-gramas y términos compuestos
 - Analizar el corpus de cuentos de Hernán Casciari
-
-## 📚 Contenido
-
-### Práctica (PRA/)
-- `anexo_text_mining.ipynb`: Ejercicios complementarios
-- `text_mining.ipynb`: Análisis principal de text mining
-- **cuentos_casciari/**: Corpus completo de cuentos (2004-2015)
-  - Textos originales (2004.txt - 2015.txt)
-  - Datos procesados (corpus.pkl, cv.pkl, dtm.pkl, etc.)
-
-### Teoría (TEO/)
-- `Bag of Words y TF-IDF en español.ipynb`: Implementación detallada
-- `Vectorización de Texto.pptx`: Fundamentos teóricos
 
 ## 🔢 Técnicas de Vectorización
 
@@ -106,6 +93,3 @@ import seaborn as sns
 - Detección de temas recurrentes en literatura
 - Comparación de corpus por períodos temporales
 - Identificación de regionalismos y argentinismos
-
----
-*"El text mining nos permite descubrir los patrones ocultos en las palabras, revelando la estructura invisible del pensamiento humano."* - Prof. Matias Barreto
