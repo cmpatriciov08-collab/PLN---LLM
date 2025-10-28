@@ -48,11 +48,3 @@ Si tienes preguntas o sugerencias sobre este proyecto, no dudes en contactarme:
 - **💼 LinkedIn**: linkedin.com/in/christian-manuel-patricio-velasquez-64a144164
 - **🐙 GitHub**: [@cmpatriciov08](https://github.com/cmpatriciov08-collab)
 
-
----
-
-<div align="center">
-
-*¡Explorando el lenguaje a través de los datos!*
-
-</div>
