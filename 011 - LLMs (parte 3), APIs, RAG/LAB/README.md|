@@ -1,0 +1,49 @@
+# LLMs (Parte 3), APIs y Sistemas RAG
+
+## 🌐 Introducción a APIs de LLMs
+- **Conceptos**: Fundamentos de consumo de modelos via API
+- **Protocolos**: REST, streaming, y manejo de respuestas asíncronas
+- **Aplicación**: Integración de LLMs en aplicaciones externas
+
+## 💬 ChatGPT - Conceptos Básicos
+- **Modelo**: GPT architecture y capacidades de chat
+- **Prompting**: Técnicas efectivas para interacción conversacional
+- **Casos de Uso**: Asistentes virtuales y soporte automatizado
+
+## 🔷 Gemini API para Tareas NLP
+- **Ecosistema Google**: Acceso a modelos Gemini via API
+- **Multimodalidad**: Procesamiento de texto, imágenes y más
+- **Aplicaciones**: Análisis avanzado y generación multimodal
+
+## 📄 Carga de Documentos para RAG
+- **Preprocesamiento**: Chunking, limpieza y preparación de documentos
+- **Formatos**: PDF, DOCX, HTML y procesamiento de texto plano
+- **Extracción**: Técnicas para obtener información estructurada
+
+## 🗄️ Bases de Datos Vectoriales
+- **Almacenamiento**: Embeddings y búsqueda por similitud
+- **Tecnologías**: FAISS, Chroma, Pinecone, y otras soluciones
+- **Indexado**: Estrategias para recuperación eficiente
+
+## 🔍 Sistema RAG Completo
+- **Arquitectura**: Retrieval-Augmented Generation end-to-end
+- **Componentes**: Retriever, generator y mecanismos de fusión
+- **Optimización**: Mejora de precisión y reducción de alucinaciones
+
+## 🖥️ Ollama - LLMs Locales
+- **Despliegue Local**: Ejecución de modelos sin dependencia cloud
+- **Modelos Abiertos**: Llama, Mistral, y otros modelos descargables
+- **Ventajas**: Privacidad, costo y control total
+
+## 🌐 Búsqueda Web Actualizada
+- **Integración**: Combinación de LLMs con información en tiempo real
+- **Herramientas**: Web scraping y APIs de búsqueda
+- **Aplicaciones**: Asistentes con conocimiento actualizado
+
+## 📊 Uso Recomendado
+- **APIs LLMs**: Integración rápida con modelos cloud
+- **ChatGPT/Gemini**: Soluciones conversacionales y multimodales
+- **RAG Completo**: Sistemas con acceso a conocimiento específico
+- **Bases Vectoriales**: Almacenamiento eficiente de embeddings
+- **Ollama Local**: Privacidad y control sobre modelos
+- **Búsqueda Web**: Información actualizada y en tiempo real
