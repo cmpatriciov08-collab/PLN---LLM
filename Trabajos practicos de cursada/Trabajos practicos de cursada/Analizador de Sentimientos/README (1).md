@@ -16,6 +16,8 @@ short_description: COMPARADOR DE MODELOS
 
 MVP para análisis de sentimiento en español utilizando modelos transformers pre-entrenados de HuggingFace.
 
+LINK: https://huggingface.co/spaces/manuelcpv92/SENTIMENT_ANALYZER
+
 ## 🚀 Características
 
 - **Comparación side-by-side** de dos modelos especializados en español
